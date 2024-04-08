@@ -10,6 +10,7 @@ namespace CSBasic
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World?!");
         }
     }
 }
