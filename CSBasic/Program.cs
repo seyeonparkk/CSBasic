@@ -16,6 +16,11 @@ namespace CSBasic
             int a = 2000000000;
             int b = 1000000000;
             Console.WriteLine(a + b);
+
+            //오버플로우연습2
+            Console.WriteLine((long)a + b);
+            Console.WriteLine(a + (long)b);
+            Console.WriteLine((long)a + (long)b);
         }
     }
 }
